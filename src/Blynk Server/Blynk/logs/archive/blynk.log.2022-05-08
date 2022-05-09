@@ -1,0 +1,142 @@
+18:36:26.186 INFO - Using data dir 'server_data'
+18:36:26.582 INFO - Region : local. Host : 10.0.0.35.
+18:36:27.000 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+18:36:27.040 INFO - Reports : 0
+18:36:27.040 INFO - Didn't find custom user certificates.
+18:36:27.042 INFO - Didn't find Let's Encrypt certificates.
+18:36:27.042 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+18:36:27.042 WARN - ATTENTION. Server certificate paths (cert : 'D:\Coding\IoT\Wetterstation_4.0\src\Blynk Server\Blynk', key : 'D:\Coding\IoT\Wetterstation_4.0\src\Blynk Server\Blynk') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+18:36:28.055 INFO - HTTP API and WebSockets server listening at 8080 port.
+18:36:28.056 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+18:36:28.057 INFO - Mqtt hardware server listening at 8440 port.
+18:36:48.930 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+18:38:06.540 INFO - Creating new dashboard.
+18:38:07.204 ERROR- Error sending email auth token to user : simon.schimik@gmail.com. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials jz1-20020a17090775e100b006f3ef214e52sm4202664ejc.184 - gsmtp
+
+18:41:04.801 INFO - Updating config mail.properties. New body : 
+18:41:04.801 INFO - mail.smtp.username=xbased@gmx.at
+mail.smtp.port=587
+mail.smtp.password=1simon23
+mail.smtp.auth=true
+mail.smtp.starttls.enable=true
+mail.smtp.timeout=120000
+mail.smtp.host=mail.gmx.net
+mail.smtp.connectiontimeout=30000
+18:41:06.377 INFO - Updating config mail.properties. New body : 
+18:41:06.377 INFO - mail.smtp.username=xbased@gmx.at
+mail.smtp.port=587
+mail.smtp.password=1simon23
+mail.smtp.auth=true
+mail.smtp.starttls.enable=true
+mail.smtp.timeout=120000
+mail.smtp.host=mail.gmx.net
+mail.smtp.connectiontimeout=30000
+18:41:06.503 INFO - Updating config mail.properties. New body : 
+18:41:06.503 INFO - mail.smtp.username=xbased@gmx.at
+mail.smtp.port=587
+mail.smtp.password=1simon23
+mail.smtp.auth=true
+mail.smtp.starttls.enable=true
+mail.smtp.timeout=120000
+mail.smtp.host=mail.gmx.net
+mail.smtp.connectiontimeout=30000
+18:41:06.648 INFO - Updating config mail.properties. New body : 
+18:41:06.648 INFO - mail.smtp.username=xbased@gmx.at
+mail.smtp.port=587
+mail.smtp.password=1simon23
+mail.smtp.auth=true
+mail.smtp.starttls.enable=true
+mail.smtp.timeout=120000
+mail.smtp.host=mail.gmx.net
+mail.smtp.connectiontimeout=30000
+18:41:06.798 INFO - Updating config mail.properties. New body : 
+18:41:06.798 INFO - mail.smtp.username=xbased@gmx.at
+mail.smtp.port=587
+mail.smtp.password=1simon23
+mail.smtp.auth=true
+mail.smtp.starttls.enable=true
+mail.smtp.timeout=120000
+mail.smtp.host=mail.gmx.net
+mail.smtp.connectiontimeout=30000
+18:41:06.920 INFO - Updating config mail.properties. New body : 
+18:41:06.920 INFO - mail.smtp.username=xbased@gmx.at
+mail.smtp.port=587
+mail.smtp.password=1simon23
+mail.smtp.auth=true
+mail.smtp.starttls.enable=true
+mail.smtp.timeout=120000
+mail.smtp.host=mail.gmx.net
+mail.smtp.connectiontimeout=30000
+18:41:53.816 ERROR- Error sending email auth token to user : simon.schimik@gmail.com. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials b6-20020a50e386000000b0042617ba63c8sm5180377edm.82 - gsmtp
+
+18:46:52.588 INFO - Using data dir '.\server_data'
+18:46:52.958 INFO - Region : local. Host : 10.0.0.35.
+18:46:53.334 INFO - Initializing gmail smtp mail transport. Username : xbased@gmx.at. SMTP host : mail.gmx.net:587
+18:46:53.368 INFO - Reports : 0
+18:46:53.369 INFO - Didn't find custom user certificates.
+18:46:53.370 INFO - Didn't find Let's Encrypt certificates.
+18:46:53.370 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+18:46:53.370 WARN - ATTENTION. Server certificate paths (cert : 'D:\Coding\IoT\Wetterstation_4.0\src\Blynk Server\Blynk', key : 'D:\Coding\IoT\Wetterstation_4.0\src\Blynk Server\Blynk') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+18:46:54.049 INFO - HTTP API and WebSockets server listening at 8080 port.
+18:46:54.050 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+18:46:54.051 INFO - Mqtt hardware server listening at 8440 port.
+18:47:18.333 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+18:47:22.918 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+18:57:03.972 INFO - simon.schimik@gmail.com hardware joined.
+18:57:28.234 INFO - simon.schimik@gmail.com hardware joined.
+18:57:43.046 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+18:57:47.985 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+18:58:11.145 INFO - simon.schimik@gmail.com hardware joined.
+18:59:46.259 INFO - simon.schimik@gmail.com hardware joined.
+19:00:31.977 INFO - simon.schimik@gmail.com hardware joined.
+19:01:00.967 INFO - simon.schimik@gmail.com hardware joined.
+19:01:48.131 INFO - simon.schimik@gmail.com hardware joined.
+19:03:37.492 INFO - simon.schimik@gmail.com hardware joined.
+19:04:29.302 INFO - simon.schimik@gmail.com hardware joined.
+19:04:44.868 INFO - simon.schimik@gmail.com hardware joined.
+19:05:29.982 INFO - simon.schimik@gmail.com hardware joined.
+19:08:42.746 INFO - simon.schimik@gmail.com hardware joined.
+19:34:23.919 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+19:34:26.469 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+19:39:34.785 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+19:40:29.514 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+22:34:02.645 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+22:45:57.437 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+22:49:58.729 INFO - simon.schimik@gmail.com hardware joined.
+22:51:00.329 INFO - simon.schimik@gmail.com hardware joined.
+22:51:56.036 INFO - simon.schimik@gmail.com hardware joined.
+22:52:28.259 INFO - simon.schimik@gmail.com hardware joined.
+22:53:10.576 INFO - simon.schimik@gmail.com hardware joined.
+22:53:21.780 INFO - simon.schimik@gmail.com hardware joined.
+22:57:06.713 INFO - simon.schimik@gmail.com hardware joined.
+22:57:35.547 INFO - simon.schimik@gmail.com hardware joined.
+22:57:46.512 INFO - simon.schimik@gmail.com hardware joined.
+23:00:17.941 INFO - simon.schimik@gmail.com hardware joined.
+23:00:39.267 INFO - simon.schimik@gmail.com hardware joined.
+23:00:58.963 INFO - simon.schimik@gmail.com hardware joined.
+23:01:04.661 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+23:03:32.542 INFO - simon.schimik@gmail.com hardware joined.
+23:04:27.310 INFO - Using data dir '.\server_data'
+23:04:27.682 INFO - Region : local. Host : 10.0.0.35.
+23:04:28.042 INFO - Initializing gmail smtp mail transport. Username : xbased@gmx.at. SMTP host : mail.gmx.net:587
+23:04:28.080 INFO - Reports : 0
+23:04:28.080 INFO - Didn't find custom user certificates.
+23:04:28.081 INFO - Didn't find Let's Encrypt certificates.
+23:04:28.081 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+23:04:28.081 WARN - ATTENTION. Server certificate paths (cert : 'D:\Coding\IoT\Wetterstation_4.0\src\Blynk Server\Blynk', key : 'D:\Coding\IoT\Wetterstation_4.0\src\Blynk Server\Blynk') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+23:04:28.767 INFO - HTTP API and WebSockets server listening at 8080 port.
+23:04:28.768 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+23:04:28.768 INFO - Mqtt hardware server listening at 8440 port.
+23:04:28.961 INFO - simon.schimik@gmail.com hardware joined.
+23:04:29.388 INFO - simon.schimik@gmail.com hardware joined.
+23:04:36.546 INFO - simon.schimik@gmail.com hardware joined.
+23:09:22.779 INFO - simon.schimik@gmail.com hardware joined.
+23:10:05.213 INFO - simon.schimik@gmail.com hardware joined.
+23:10:34.575 INFO - simon.schimik@gmail.com hardware joined.
+23:10:49.581 INFO - simon.schimik@gmail.com hardware joined.
+23:19:37.655 INFO - simon.schimik@gmail.com hardware joined.
+23:20:14.534 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+23:21:31.542 INFO - simon.schimik@gmail.com hardware joined.
+23:23:02.381 INFO - simon.schimik@gmail.com hardware joined.

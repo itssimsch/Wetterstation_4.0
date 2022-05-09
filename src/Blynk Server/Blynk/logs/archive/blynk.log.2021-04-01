@@ -1,0 +1,143 @@
+09:09:29.321 INFO - simon.schimik@gmail.com hardware joined.
+09:09:31.068 INFO - simon.schimik@gmail.com hardware joined.
+09:17:51.716 INFO - simon.schimik@gmail.com hardware joined.
+09:18:01.548 INFO - simon.schimik@gmail.com hardware joined.
+09:19:58.166 INFO - simon.schimik@gmail.com hardware joined.
+09:21:15.826 INFO - Using data dir 'server_data'
+09:21:16.453 INFO - Region : local. Host : 10.0.0.4.
+09:21:16.531 INFO - Using native epoll transport.
+09:21:17.070 INFO - Initializing gmail smtp mail transport. Username : xbased@gmx.at. SMTP host : mail.gmx.net:587
+09:21:17.152 INFO - Reports : 0
+09:21:17.159 INFO - Didn't find custom user certificates.
+09:21:17.160 INFO - Didn't find Let's Encrypt certificates.
+09:21:17.160 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+09:21:17.160 INFO - Using native openSSL provider.
+09:21:17.160 WARN - ATTENTION. Server certificate paths (cert : '/home/itssimsch/Blynk', key : '/home/itssimsch/Blynk') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+09:21:18.411 INFO - HTTP API and WebSockets server listening at 8080 port.
+09:21:18.415 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+09:21:18.415 INFO - Mqtt hardware server listening at 8440 port.
+09:21:18.938 INFO - simon.schimik@gmail.com hardware joined.
+09:21:18.946 INFO - simon.schimik@gmail.com hardware joined.
+09:23:04.761 INFO - simon.schimik@gmail.com hardware joined.
+09:23:33.442 INFO - Using data dir 'server_data'
+09:23:34.082 INFO - Region : local. Host : 10.0.0.4.
+09:23:34.158 INFO - Using native epoll transport.
+09:23:34.596 INFO - Initializing gmail smtp mail transport. Username : xbased@gmx.at. SMTP host : mail.gmx.net:587
+09:23:34.682 INFO - Reports : 0
+09:23:34.682 INFO - Didn't find custom user certificates.
+09:23:34.684 INFO - Didn't find Let's Encrypt certificates.
+09:23:34.684 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+09:23:34.684 INFO - Using native openSSL provider.
+09:23:34.686 WARN - ATTENTION. Server certificate paths (cert : '/home/itssimsch/Blynk', key : '/home/itssimsch/Blynk') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+09:23:36.009 INFO - HTTP API and WebSockets server listening at 8080 port.
+09:23:36.010 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+09:23:36.011 INFO - Mqtt hardware server listening at 8440 port.
+09:23:37.405 INFO - simon.schimik@gmail.com hardware joined.
+09:23:37.413 INFO - simon.schimik@gmail.com hardware joined.
+09:26:10.123 INFO - simon.schimik@gmail.com hardware joined.
+09:28:08.719 INFO - Using data dir 'server_data'
+09:28:09.333 INFO - Region : local. Host : 10.0.0.4.
+09:28:09.419 INFO - Using native epoll transport.
+09:28:09.884 INFO - Initializing gmail smtp mail transport. Username : xbased@gmx.at. SMTP host : mail.gmx.net:587
+09:28:09.986 INFO - Reports : 0
+09:28:09.987 INFO - Didn't find custom user certificates.
+09:28:09.989 INFO - Didn't find Let's Encrypt certificates.
+09:28:09.989 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+09:28:09.989 INFO - Using native openSSL provider.
+09:28:09.989 WARN - ATTENTION. Server certificate paths (cert : '/home/itssimsch/Blynk', key : '/home/itssimsch/Blynk') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+09:28:11.478 INFO - HTTP API and WebSockets server listening at 8080 port.
+09:28:11.483 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+09:28:11.483 INFO - Mqtt hardware server listening at 8440 port.
+09:28:13.948 INFO - simon.schimik@gmail.com hardware joined.
+09:28:16.062 INFO - simon.schimik@gmail.com hardware joined.
+09:28:34.514 INFO - Using data dir 'server_data'
+09:28:35.156 INFO - Region : local. Host : 10.0.0.4.
+09:28:35.243 INFO - Using native epoll transport.
+09:28:35.693 INFO - Initializing gmail smtp mail transport. Username : xbased@gmx.at. SMTP host : mail.gmx.net:587
+09:28:35.779 INFO - Reports : 0
+09:28:35.779 INFO - Didn't find custom user certificates.
+09:28:35.781 INFO - Didn't find Let's Encrypt certificates.
+09:28:35.781 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+09:28:35.783 INFO - Using native openSSL provider.
+09:28:35.784 WARN - ATTENTION. Server certificate paths (cert : '/home/itssimsch/Blynk', key : '/home/itssimsch/Blynk') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+09:28:37.135 INFO - HTTP API and WebSockets server listening at 8080 port.
+09:28:37.136 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+09:28:37.136 INFO - Mqtt hardware server listening at 8440 port.
+09:28:41.641 INFO - simon.schimik@gmail.com hardware joined.
+09:28:41.677 INFO - simon.schimik@gmail.com hardware joined.
+09:32:26.312 INFO - simon.schimik@gmail.com Blynk-app (android-22728) joined.
+09:53:37.724 INFO - simon.schimik@gmail.com hardware joined.
+09:53:39.325 INFO - simon.schimik@gmail.com hardware joined.
+09:53:41.777 INFO - simon.schimik@gmail.com Blynk-app (android-22728) joined.
+09:53:42.835 INFO - simon.schimik@gmail.com hardware joined.
+10:03:37.699 INFO - simon.schimik@gmail.com Blynk-app (android-22728) joined.
+10:42:40.686 INFO - simon.schimik@gmail.com Blynk-app (android-22728) joined.
+10:47:56.116 INFO - simon.schimik@gmail.com Blynk-app (android-22728) joined.
+10:48:39.305 INFO - simon.schimik@gmail.com hardware joined.
+10:50:55.318 INFO - simon.schimik@gmail.com Blynk-app (android-22728) joined.
+10:53:18.721 INFO - simon.schimik@gmail.com hardware joined.
+10:55:46.729 INFO - simon.schimik@gmail.com Blynk-app (android-22728) joined.
+10:56:54.946 INFO - simon.schimik@gmail.com Blynk-app (android-22728) joined.
+10:57:01.328 INFO - simon.schimik@gmail.com hardware joined.
+11:08:04.089 INFO - simon.schimik@gmail.com Blynk-app (android-22728) joined.
+11:08:19.008 INFO - simon.schimik@gmail.com Blynk-app (android-22728) joined.
+18:10:54.645 INFO - Using data dir 'server_data'
+18:10:55.127 INFO - Region : local. Host : 10.0.0.4.
+18:10:55.314 INFO - Using native epoll transport.
+18:10:55.892 INFO - Initializing gmail smtp mail transport. Username : xbased@gmx.at. SMTP host : mail.gmx.net:587
+18:10:55.950 INFO - Reports : 0
+18:10:55.950 INFO - Didn't find custom user certificates.
+18:10:55.952 INFO - Didn't find Let's Encrypt certificates.
+18:10:55.952 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+18:10:55.952 INFO - Using native openSSL provider.
+18:10:55.952 WARN - ATTENTION. Server certificate paths (cert : '/home/itssimsch/Blynk', key : '/home/itssimsch/Blynk') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+18:10:56.699 INFO - HTTP API and WebSockets server listening at 8080 port.
+18:10:56.700 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+18:10:56.701 INFO - Mqtt hardware server listening at 8440 port.
+18:11:00.071 INFO - simon.schimik@gmail.com hardware joined.
+18:11:24.868 INFO - simon.schimik@gmail.com hardware joined.
+18:12:57.727 INFO - simon.schimik@gmail.com hardware joined.
+18:14:00.584 INFO - simon.schimik@gmail.com hardware joined.
+18:14:15.993 INFO - simon.schimik@gmail.com hardware joined.
+18:16:00.656 INFO - simon.schimik@gmail.com hardware joined.
+18:21:57.190 INFO - Using data dir 'server_data'
+18:21:57.590 INFO - Region : local. Host : 10.0.0.4.
+18:21:57.624 INFO - Using native epoll transport.
+18:21:57.898 INFO - Initializing gmail smtp mail transport. Username : xbased@gmx.at. SMTP host : mail.gmx.net:587
+18:21:57.934 INFO - Reports : 0
+18:21:57.935 INFO - Didn't find custom user certificates.
+18:21:57.936 INFO - Didn't find Let's Encrypt certificates.
+18:21:57.936 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+18:21:57.936 INFO - Using native openSSL provider.
+18:21:57.936 WARN - ATTENTION. Server certificate paths (cert : '/home/itssimsch/Blynk', key : '/home/itssimsch/Blynk') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+18:21:58.605 INFO - HTTP API and WebSockets server listening at 8080 port.
+18:21:58.605 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+18:21:58.606 INFO - Mqtt hardware server listening at 8440 port.
+18:21:58.831 INFO - simon.schimik@gmail.com hardware joined.
+18:31:58.750 INFO - Using data dir 'server_data'
+18:31:59.093 INFO - Region : local. Host : 10.0.0.4.
+18:31:59.133 INFO - Using native epoll transport.
+18:31:59.424 INFO - Initializing gmail smtp mail transport. Username : xbased@gmx.at. SMTP host : mail.gmx.net:587
+18:31:59.467 INFO - Reports : 0
+18:31:59.467 INFO - Didn't find custom user certificates.
+18:31:59.469 INFO - Didn't find Let's Encrypt certificates.
+18:31:59.469 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+18:31:59.469 INFO - Using native openSSL provider.
+18:31:59.470 WARN - ATTENTION. Server certificate paths (cert : '/home/itssimsch/Blynk', key : '/home/itssimsch/Blynk') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+18:32:00.082 INFO - HTTP API and WebSockets server listening at 8080 port.
+18:32:00.083 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+18:32:00.084 INFO - Mqtt hardware server listening at 8440 port.
+18:32:01.807 INFO - simon.schimik@gmail.com hardware joined.
+18:33:20.756 INFO - Using data dir 'server_data'
+18:33:21.145 INFO - Region : local. Host : 10.0.0.4.
+18:33:21.188 INFO - Using native epoll transport.
+18:33:21.462 INFO - Initializing gmail smtp mail transport. Username : xbased@gmx.at. SMTP host : mail.gmx.net:587
+18:33:21.495 INFO - Reports : 0
+18:33:21.495 INFO - Didn't find custom user certificates.
+18:33:21.496 INFO - Didn't find Let's Encrypt certificates.
+18:33:21.496 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+18:33:21.496 INFO - Using native openSSL provider.
+18:33:21.496 WARN - ATTENTION. Server certificate paths (cert : '/home/itssimsch/Blynk', key : '/home/itssimsch/Blynk') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+18:33:22.437 INFO - HTTP API and WebSockets server listening at 8080 port.
+18:33:22.438 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+18:33:22.438 INFO - Mqtt hardware server listening at 8440 port.

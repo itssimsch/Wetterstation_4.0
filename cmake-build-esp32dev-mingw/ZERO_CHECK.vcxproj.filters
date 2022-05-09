@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Coding\IoT\Wetterstation_4.0\cmake-build-esp32dev-mingw\CMakeFiles\61cd906a9339c05ceea9567906e499b5\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{ABB6BC87-F2B7-3C44-9985-42458B92F823}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

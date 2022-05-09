@@ -1,0 +1,15 @@
+05:50:45.125 ERROR- Register Handler. Wrong income message format. RegisterMessage{id=0, command=Register, body=''}
+06:38:40.895 INFO - simon.schimik@gmail.com hardware joined.
+06:38:58.872 INFO - simon.schimik@gmail.com hardware joined.
+12:21:19.573 INFO - simon.schimik@gmail.com Blynk-app (android-22732) joined.
+13:18:09.665 INFO - simon.schimik@gmail.com Blynk-app (android-22732) joined.
+14:32:21.709 INFO - simon.schimik@gmail.com Blynk-app (android-22732) joined.
+20:31:41.826 INFO - simon.schimik@gmail.com hardware joined.
+20:31:46.869 INFO - simon.schimik@gmail.com hardware joined.
+20:31:47.562 INFO - simon.schimik@gmail.com hardware joined.
+22:09:46.329 INFO - simon.schimik@gmail.com hardware joined.
+22:09:51.380 INFO - simon.schimik@gmail.com hardware joined.
+22:46:13.720 INFO - simon.schimik@gmail.com hardware joined.
+22:46:18.757 INFO - simon.schimik@gmail.com hardware joined.
+23:17:28.955 INFO - simon.schimik@gmail.com hardware joined.
+23:25:51.425 INFO - simon.schimik@gmail.com hardware joined.

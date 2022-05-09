@@ -1,0 +1,22 @@
+08:14:29.571 INFO - simon.schimik@gmail.com Blynk-app (android-22732) joined.
+08:29:41.996 INFO - simon.schimik@gmail.com Blynk-app (android-22732) joined.
+08:33:16.502 WARN - Duplicate zip entry Insidesensor_51084_Luftfeuchtigkeit.csv. Wrong report configuration.
+08:33:16.503 WARN - Duplicate zip entry Insidesensor_51084_AbsLuftfeuchtigk.csv. Wrong report configuration.
+08:33:16.507 WARN - Duplicate zip entry Insidesensor_51084_Temperatur.csv. Wrong report configuration.
+08:33:16.845 INFO - Processed report for simon.schimik@gmail.com, time 612 ms.
+08:35:40.123 INFO - Processed report for simon.schimik@gmail.com, time 225 ms.
+08:38:05.463 INFO - Processed report for simon.schimik@gmail.com, time 228 ms.
+08:39:49.177 INFO - Processed report for simon.schimik@gmail.com, time 254 ms.
+08:58:18.674 INFO - Using data dir 'server_data'
+08:58:19.442 INFO - Region : local. Host : 127.0.1.1.
+08:58:19.551 INFO - Using native epoll transport.
+08:58:20.159 INFO - Initializing gmail smtp mail transport. Username : xbased@gmx.at. SMTP host : mail.gmx.net:587
+08:58:20.275 INFO - Reports : 0
+08:58:20.276 INFO - Didn't find custom user certificates.
+08:58:20.277 INFO - Didn't find Let's Encrypt certificates.
+08:58:20.277 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+08:58:20.279 INFO - Using native openSSL provider.
+08:58:20.279 WARN - ATTENTION. Server certificate paths (cert : '/home/itssimsch/Blynk', key : '/home/itssimsch/Blynk') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+08:58:21.531 INFO - HTTP API and WebSockets server listening at 8080 port.
+08:58:21.539 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+08:58:21.540 INFO - Mqtt hardware server listening at 8440 port.

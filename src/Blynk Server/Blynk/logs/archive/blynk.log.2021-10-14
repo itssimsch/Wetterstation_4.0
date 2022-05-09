@@ -1,0 +1,1 @@
+16:24:41.393 ERROR- Register Handler. Wrong income message format. RegisterMessage{id=0, command=Register, body=''}

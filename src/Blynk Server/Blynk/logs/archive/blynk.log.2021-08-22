@@ -1,0 +1,13 @@
+04:29:26.761 INFO - simon.schimik@gmail.com hardware joined.
+08:30:38.189 INFO - simon.schimik@gmail.com hardware joined.
+09:29:18.344 INFO - simon.schimik@gmail.com hardware joined.
+09:34:52.783 INFO - simon.schimik@gmail.com Blynk-app (android-22731) joined.
+09:35:19.427 INFO - simon.schimik@gmail.com hardware joined.
+09:35:29.640 INFO - simon.schimik@gmail.com Blynk-app (android-22731) joined.
+09:35:54.386 INFO - simon.schimik@gmail.com Blynk-app (android-22731) joined.
+12:51:40.696 INFO - simon.schimik@gmail.com Blynk-app (android-22731) joined.
+15:51:15.127 INFO - simon.schimik@gmail.com Blynk-app (android-22731) joined.
+16:07:25.402 INFO - simon.schimik@gmail.com hardware joined.
+16:31:32.856 INFO - simon.schimik@gmail.com Blynk-app (android-22731) joined.
+16:59:40.426 ERROR- Register Handler. Wrong income message format. RegisterMessage{id=0, command=Register, body=''}
+18:48:02.409 ERROR- Register Handler. Wrong income message format. RegisterMessage{id=0, command=Register, body=''}

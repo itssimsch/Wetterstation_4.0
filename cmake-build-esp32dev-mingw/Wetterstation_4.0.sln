@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{0586B8B7-DACD-3362-AB9F-17400877DF15}"
+	ProjectSection(ProjectDependencies) = postProject
+		{634D8EBC-4D80-316E-9173-20F47DF1B6F6} = {634D8EBC-4D80-316E-9173-20F47DF1B6F6}
+		{FD8D0A14-7D07-398D-8063-1E72DE90C71F} = {FD8D0A14-7D07-398D-8063-1E72DE90C71F}
+		{7EAC2C15-7631-3CF8-8477-C5592C860210} = {7EAC2C15-7631-3CF8-8477-C5592C860210}
+		{A4719CB7-AE28-33A6-83F5-6DC3429919B3} = {A4719CB7-AE28-33A6-83F5-6DC3429919B3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Debug", "Debug.vcxproj", "{634D8EBC-4D80-316E-9173-20F47DF1B6F6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7EAC2C15-7631-3CF8-8477-C5592C860210} = {7EAC2C15-7631-3CF8-8477-C5592C860210}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Production", "Production.vcxproj", "{FD8D0A14-7D07-398D-8063-1E72DE90C71F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7EAC2C15-7631-3CF8-8477-C5592C860210} = {7EAC2C15-7631-3CF8-8477-C5592C860210}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{7EAC2C15-7631-3CF8-8477-C5592C860210}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Z_DUMMY_TARGET", "Z_DUMMY_TARGET.vcxproj", "{A4719CB7-AE28-33A6-83F5-6DC3429919B3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7EAC2C15-7631-3CF8-8477-C5592C860210} = {7EAC2C15-7631-3CF8-8477-C5592C860210}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		esp32dev|x64 = esp32dev|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0586B8B7-DACD-3362-AB9F-17400877DF15}.esp32dev|x64.ActiveCfg = esp32dev|x64
+		{634D8EBC-4D80-316E-9173-20F47DF1B6F6}.esp32dev|x64.ActiveCfg = esp32dev|x64
+		{634D8EBC-4D80-316E-9173-20F47DF1B6F6}.esp32dev|x64.Build.0 = esp32dev|x64
+		{FD8D0A14-7D07-398D-8063-1E72DE90C71F}.esp32dev|x64.ActiveCfg = esp32dev|x64
+		{FD8D0A14-7D07-398D-8063-1E72DE90C71F}.esp32dev|x64.Build.0 = esp32dev|x64
+		{7EAC2C15-7631-3CF8-8477-C5592C860210}.esp32dev|x64.ActiveCfg = esp32dev|x64
+		{7EAC2C15-7631-3CF8-8477-C5592C860210}.esp32dev|x64.Build.0 = esp32dev|x64
+		{A4719CB7-AE28-33A6-83F5-6DC3429919B3}.esp32dev|x64.ActiveCfg = esp32dev|x64
+		{A4719CB7-AE28-33A6-83F5-6DC3429919B3}.esp32dev|x64.Build.0 = esp32dev|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D14F5103-43DE-37D6-AAD4-C88A8EF76AA8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
