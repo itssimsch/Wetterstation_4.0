@@ -10,6 +10,8 @@
             "includePath": [
                 "d:/Coding/IoT/Wetterstation_4.0/include",
                 "d:/Coding/IoT/Wetterstation_4.0/src",
+                "C:/Users/simon/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src",
+                "d:/Coding/IoT/Wetterstation_4.0/.pio/libdeps/esp32dev/SimpleTimer",
                 "d:/Coding/IoT/Wetterstation_4.0/.pio/libdeps/esp32dev/PubSubClient/src",
                 "d:/Coding/IoT/Wetterstation_4.0/.pio/libdeps/esp32dev/Blynk/src",
                 "C:/Users/simon/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
@@ -112,7 +114,6 @@
                 "C:/Users/simon/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src",
                 "C:/Users/simon/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src",
                 "C:/Users/simon/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src",
-                "C:/Users/simon/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src",
                 "C:/Users/simon/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src",
                 "C:/Users/simon/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
                 ""
@@ -122,6 +123,8 @@
                 "path": [
                     "d:/Coding/IoT/Wetterstation_4.0/include",
                     "d:/Coding/IoT/Wetterstation_4.0/src",
+                    "C:/Users/simon/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src",
+                    "d:/Coding/IoT/Wetterstation_4.0/.pio/libdeps/esp32dev/SimpleTimer",
                     "d:/Coding/IoT/Wetterstation_4.0/.pio/libdeps/esp32dev/PubSubClient/src",
                     "d:/Coding/IoT/Wetterstation_4.0/.pio/libdeps/esp32dev/Blynk/src",
                     "C:/Users/simon/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
@@ -224,7 +227,6 @@
                     "C:/Users/simon/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src",
                     "C:/Users/simon/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src",
                     "C:/Users/simon/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src",
-                    "C:/Users/simon/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src",
                     "C:/Users/simon/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src",
                     "C:/Users/simon/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
                     ""

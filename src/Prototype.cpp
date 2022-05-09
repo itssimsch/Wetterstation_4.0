@@ -1,58 +1,37 @@
-#include <WiFi.h>
-#include <PubSubClient.h>
-
 // BME
 #include <Wire.h>
 #include <Adafruit_Sensor.h>
 #include <Adafruit_BME280.h>
 
-const char *ssid = "";
-const char *password = "";
-const char *mqttServer = "10.0.0.35";
-const int mqttPort = 1883;
-const char *mqttUser = "sensor";
-const char *mqttPassword = "sensor";
+#include "ConnectionHandler.h"
 
-Adafruit_BME280 bme;
-WiFiClient espClient;
-PubSubClient client(espClient);
+// Config files
+#include "config_global.h"
+#include "config.h"
+
 
 void setup()
 {
-    pinMode(23, OUTPUT);
-    digitalWrite(23, HIGH);
-    bme.begin(0x76);
-
     Serial.begin(9600);
-    WiFi.begin(ssid, password);
-    while (WiFi.status() != WL_CONNECTED)
-    {
-        delay(500);
-        Serial.println("Connecting to WiFi..");
-    }
-    Serial.println("Connected to the WiFi network");
-
-    client.setServer(mqttServer, mqttPort);
-    while (!client.connected())
-    {
-        Serial.println("Connecting to MQTT...");
-        if (client.connect("ESP32Client", mqttUser, mqttPassword))
-        {
-            Serial.println("connected");
-        }
-        else
-        {
-            Serial.print("failed with state ");
-            Serial.print(client.state());
-            delay(2000);
-        }
-    }
     
+
+    timer.setInterval(3600000, [] () {});                                                           
+    heartbeat_timer_id = timer.setInterval(HEARTBEAT_DELAY, heartbeat);
+    check_connections_timer_id = timer.setInterval(CHECK_CONNECT_DELAY, verifyConnections);
+
+    pinMode(ledRedPin,OUTPUT);
+    pinMode(ledGreenPin,OUTPUT);
+    pinMode(ledBluePin,OUTPUT);
+
+    handleConnects();
 }
 
 void loop()
 {
-    client.loop();
-    client.publish("test/temp", String(bme.readTemperature()).c_str());
-    delay(1000);
+  timer.run();
+  
+  if (!wifiConnected)
+  {
+    MQTTclient.loop();
+  }
 }
