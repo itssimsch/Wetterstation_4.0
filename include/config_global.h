@@ -11,35 +11,32 @@
 #define MQTT_SERVER_PORT 1883
 #define MQTT_USERNAME "sensor"
 #define MQTT_PASSWORD "sensor"
-
-static WiFiClient My_WiFi_Client;
-static PubSubClient MQTTclient(My_WiFi_Client);
-static Ticker ledFlasher;  
-static SimpleTimer timer;
-
-// Connections       
 #define WIFI_CONNECT_ATTEMPT_DELAY 500   
 #define MAX_WIFI_CONNECT_ATTEMPTs 10    
 #define RETRY_WAIT_TIME 60000 
-static bool wifiConnected = false;
-static int wifiConnectAttempts;    
-
-// Heartbeat
 #define HEARTBEAT_DELAY 5000                                
-#define CHECK_CONNECT_DELAY 30000 
+#define CHECK_CONNECT_DELAY 30000
+#define NODE_RED_DB_URL "http://10.0.0.35:1880/ui" 
 
+// Vars
+extern WiFiClient My_WiFi_Client;
+extern PubSubClient MQTTclient;
+extern Ticker ledFlasher;  
+extern SimpleTimer timer;
+
+// Connections  
+extern bool wifiConnected;
+extern int wifiConnectAttempts;    
 
 // Timers
-static int heartbeat_timer_id;
-static int check_connections_timer_id;
-static int send_serial_timer_id;
-static int long_delay_timout_id;
-
+extern int heartbeat_timer_id;
+extern int check_connections_timer_id;
+extern int long_delay_timout_id;
 
 // Monitoring variables
-static int numWifiConnects;               
-static int numMQTTConnects;               
-static unsigned long uptime;
-static char uptime_dd_hh_mm_ss [12];
-static unsigned long last_uptime; 
-static unsigned long rollover_count; 
+extern int numWifiConnects;               
+extern int numMQTTConnects;               
+extern unsigned long uptime;
+extern char uptime_dd_hh_mm_ss [12];
+extern unsigned long last_uptime; 
+extern unsigned long rollover_count; 

@@ -1,44 +1,12 @@
-10:21:18.390 INFO - Using data dir '.\server_data'
-10:21:18.957 INFO - Region : local. Host : 10.0.0.35.
-10:21:19.497 INFO - Initializing gmail smtp mail transport. Username : xbased@gmx.at. SMTP host : mail.gmx.net:587
-10:21:19.543 INFO - Reports : 0
-10:21:19.543 INFO - Didn't find custom user certificates.
-10:21:19.545 INFO - Didn't find Let's Encrypt certificates.
-10:21:19.545 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
-10:21:19.545 WARN - ATTENTION. Server certificate paths (cert : 'D:\Coding\IoT\Wetterstation_4.0\src\Blynk Server\Blynk', key : 'D:\Coding\IoT\Wetterstation_4.0\src\Blynk Server\Blynk') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
-10:21:20.239 INFO - HTTP API and WebSockets server listening at 8080 port.
-10:21:20.240 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
-10:21:20.241 INFO - Mqtt hardware server listening at 8440 port.
-10:21:22.280 INFO - simon.schimik@gmail.com hardware joined.
-10:21:57.381 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
-10:21:57.489 INFO - simon.schimik@gmail.com hardware joined.
-10:23:35.207 INFO - simon.schimik@gmail.com hardware joined.
-10:24:26.885 INFO - simon.schimik@gmail.com hardware joined.
-10:24:50.103 INFO - simon.schimik@gmail.com hardware joined.
-10:27:40.673 INFO - simon.schimik@gmail.com hardware joined.
-10:27:44.701 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
-10:28:00.777 INFO - simon.schimik@gmail.com hardware joined.
-10:29:14.652 INFO - simon.schimik@gmail.com hardware joined.
-10:30:02.583 INFO - simon.schimik@gmail.com hardware joined.
-10:31:20.477 INFO - simon.schimik@gmail.com hardware joined.
-12:19:48.911 INFO - simon.schimik@gmail.com hardware joined.
-12:20:27.992 INFO - simon.schimik@gmail.com hardware joined.
-12:21:45.300 INFO - Using data dir '.\server_data'
-12:21:45.683 INFO - Region : local. Host : 10.0.0.35.
-12:21:46.028 INFO - Initializing gmail smtp mail transport. Username : xbased@gmx.at. SMTP host : mail.gmx.net:587
-12:21:46.058 INFO - Reports : 0
-12:21:46.059 INFO - Didn't find custom user certificates.
-12:21:46.060 INFO - Didn't find Let's Encrypt certificates.
-12:21:46.060 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
-12:21:46.060 WARN - ATTENTION. Server certificate paths (cert : 'D:\Coding\IoT\Wetterstation_4.0\src\Blynk Server\Blynk', key : 'D:\Coding\IoT\Wetterstation_4.0\src\Blynk Server\Blynk') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
-12:21:46.604 INFO - HTTP API and WebSockets server listening at 8080 port.
-12:21:46.605 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
-12:21:46.605 INFO - Mqtt hardware server listening at 8440 port.
-12:21:47.583 INFO - simon.schimik@gmail.com hardware joined.
-12:22:06.541 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
-12:22:34.184 INFO - simon.schimik@gmail.com hardware joined.
-12:24:27.481 INFO - simon.schimik@gmail.com hardware joined.
-12:24:53.272 INFO - simon.schimik@gmail.com hardware joined.
-12:25:05.187 INFO - simon.schimik@gmail.com hardware joined.
-12:29:18.829 INFO - simon.schimik@gmail.com hardware joined.
-12:29:52.235 INFO - simon.schimik@gmail.com hardware joined.
+10:18:22.433 INFO - Using data dir '.\server_data'
+10:18:23.081 INFO - Region : local. Host : 10.0.0.35.
+10:18:23.720 INFO - Initializing gmail smtp mail transport. Username : xbased@gmx.at. SMTP host : mail.gmx.net:587
+10:18:23.766 INFO - Reports : 0
+10:18:23.766 INFO - Didn't find custom user certificates.
+10:18:23.768 INFO - Didn't find Let's Encrypt certificates.
+10:18:23.768 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+10:18:23.768 WARN - ATTENTION. Server certificate paths (cert : 'D:\Coding\IoT\Wetterstation_4.0\src\Blynk Server\Blynk', key : 'D:\Coding\IoT\Wetterstation_4.0\src\Blynk Server\Blynk') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+10:18:24.442 INFO - HTTP API and WebSockets server listening at 8080 port.
+10:18:24.443 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+10:18:24.444 INFO - Mqtt hardware server listening at 8440 port.
+10:18:53.724 INFO - simon.schimik@gmail.com hardware joined.

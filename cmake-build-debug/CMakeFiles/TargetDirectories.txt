@@ -1,5 +1,0 @@
-D:/Coding/IoT/Wetterstation_4.0/cmake-build-debug/CMakeFiles/Production.dir
-D:/Coding/IoT/Wetterstation_4.0/cmake-build-debug/CMakeFiles/Debug.dir
-D:/Coding/IoT/Wetterstation_4.0/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir
-D:/Coding/IoT/Wetterstation_4.0/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Coding/IoT/Wetterstation_4.0/cmake-build-debug/CMakeFiles/rebuild_cache.dir
