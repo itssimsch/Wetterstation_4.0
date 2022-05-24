@@ -1,0 +1,237 @@
+10:18:22.433 INFO - Using data dir '.\server_data'
+10:18:23.081 INFO - Region : local. Host : 10.0.0.35.
+10:18:23.720 INFO - Initializing gmail smtp mail transport. Username : xbased@gmx.at. SMTP host : mail.gmx.net:587
+10:18:23.766 INFO - Reports : 0
+10:18:23.766 INFO - Didn't find custom user certificates.
+10:18:23.768 INFO - Didn't find Let's Encrypt certificates.
+10:18:23.768 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+10:18:23.768 WARN - ATTENTION. Server certificate paths (cert : 'D:\Coding\IoT\Wetterstation_4.0\src\Blynk Server\Blynk', key : 'D:\Coding\IoT\Wetterstation_4.0\src\Blynk Server\Blynk') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+10:18:24.442 INFO - HTTP API and WebSockets server listening at 8080 port.
+10:18:24.443 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+10:18:24.444 INFO - Mqtt hardware server listening at 8440 port.
+10:18:53.724 INFO - simon.schimik@gmail.com hardware joined.
+12:44:45.068 INFO - simon.schimik@gmail.com hardware joined.
+12:45:19.693 INFO - simon.schimik@gmail.com hardware joined.
+12:45:43.945 INFO - simon.schimik@gmail.com hardware joined.
+12:45:53.281 INFO - simon.schimik@gmail.com hardware joined.
+12:47:02.958 INFO - simon.schimik@gmail.com hardware joined.
+12:47:23.836 INFO - simon.schimik@gmail.com hardware joined.
+12:47:48.849 INFO - simon.schimik@gmail.com hardware joined.
+12:49:35.741 INFO - simon.schimik@gmail.com hardware joined.
+12:50:27.206 INFO - simon.schimik@gmail.com hardware joined.
+12:51:28.848 INFO - simon.schimik@gmail.com hardware joined.
+12:51:55.438 INFO - simon.schimik@gmail.com hardware joined.
+12:52:13.753 INFO - simon.schimik@gmail.com hardware joined.
+12:54:06.908 INFO - simon.schimik@gmail.com hardware joined.
+12:54:45.501 INFO - simon.schimik@gmail.com hardware joined.
+12:55:43.253 INFO - simon.schimik@gmail.com hardware joined.
+12:57:01.947 INFO - simon.schimik@gmail.com hardware joined.
+12:57:12.880 INFO - simon.schimik@gmail.com hardware joined.
+12:57:27.812 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+13:02:39.280 INFO - simon.schimik@gmail.com hardware joined.
+13:03:05.281 INFO - simon.schimik@gmail.com hardware joined.
+13:50:46.982 INFO - simon.schimik@gmail.com hardware joined.
+13:51:15.647 INFO - simon.schimik@gmail.com hardware joined.
+13:53:28.783 INFO - simon.schimik@gmail.com hardware joined.
+13:53:41.145 INFO - simon.schimik@gmail.com hardware joined.
+13:59:32.478 INFO - simon.schimik@gmail.com hardware joined.
+14:01:39.542 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+14:03:16.847 INFO - simon.schimik@gmail.com hardware joined.
+14:03:25.747 INFO - simon.schimik@gmail.com hardware joined.
+14:03:49.590 INFO - simon.schimik@gmail.com hardware joined.
+14:04:22.036 INFO - simon.schimik@gmail.com hardware joined.
+14:04:27.090 INFO - simon.schimik@gmail.com hardware joined.
+14:04:30.821 INFO - simon.schimik@gmail.com hardware joined.
+14:05:04.185 INFO - simon.schimik@gmail.com hardware joined.
+14:05:22.902 INFO - simon.schimik@gmail.com hardware joined.
+14:06:48.090 INFO - simon.schimik@gmail.com hardware joined.
+14:07:15.829 INFO - simon.schimik@gmail.com hardware joined.
+14:08:22.514 INFO - simon.schimik@gmail.com hardware joined.
+14:09:23.632 INFO - simon.schimik@gmail.com hardware joined.
+14:10:14.372 INFO - simon.schimik@gmail.com hardware joined.
+14:10:28.449 INFO - simon.schimik@gmail.com hardware joined.
+14:10:51.367 INFO - simon.schimik@gmail.com hardware joined.
+14:12:14.006 INFO - simon.schimik@gmail.com hardware joined.
+14:12:55.049 INFO - simon.schimik@gmail.com hardware joined.
+14:13:12.422 INFO - simon.schimik@gmail.com hardware joined.
+14:14:45.596 INFO - simon.schimik@gmail.com hardware joined.
+14:15:29.478 INFO - simon.schimik@gmail.com hardware joined.
+14:16:39.986 INFO - simon.schimik@gmail.com hardware joined.
+14:17:00.437 INFO - simon.schimik@gmail.com hardware joined.
+14:17:25.095 INFO - simon.schimik@gmail.com hardware joined.
+14:17:42.803 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+14:18:19.912 INFO - simon.schimik@gmail.com hardware joined.
+14:19:23.512 INFO - simon.schimik@gmail.com hardware joined.
+14:19:52.664 INFO - simon.schimik@gmail.com hardware joined.
+14:20:31.297 INFO - simon.schimik@gmail.com hardware joined.
+14:21:18.255 INFO - simon.schimik@gmail.com hardware joined.
+14:21:45.790 INFO - simon.schimik@gmail.com hardware joined.
+14:27:45.087 INFO - simon.schimik@gmail.com hardware joined.
+14:29:09.987 INFO - simon.schimik@gmail.com hardware joined.
+14:30:51.628 INFO - simon.schimik@gmail.com hardware joined.
+14:36:32.098 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+17:29:10.335 INFO - simon.schimik@gmail.com hardware joined.
+17:29:32.490 INFO - simon.schimik@gmail.com hardware joined.
+17:30:31.998 INFO - simon.schimik@gmail.com hardware joined.
+17:33:23.094 INFO - simon.schimik@gmail.com hardware joined.
+17:34:21.469 INFO - simon.schimik@gmail.com hardware joined.
+17:34:53.343 INFO - simon.schimik@gmail.com hardware joined.
+17:36:01.060 INFO - simon.schimik@gmail.com hardware joined.
+17:40:08.064 INFO - simon.schimik@gmail.com hardware joined.
+17:42:33.654 INFO - simon.schimik@gmail.com hardware joined.
+17:42:40.289 INFO - simon.schimik@gmail.com hardware joined.
+17:49:35.229 INFO - simon.schimik@gmail.com hardware joined.
+17:50:15.084 INFO - simon.schimik@gmail.com hardware joined.
+17:52:35.867 INFO - simon.schimik@gmail.com hardware joined.
+17:55:24.312 INFO - simon.schimik@gmail.com hardware joined.
+17:57:08.282 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+17:59:51.987 INFO - simon.schimik@gmail.com hardware joined.
+18:00:37.520 INFO - simon.schimik@gmail.com hardware joined.
+18:05:59.481 INFO - simon.schimik@gmail.com hardware joined.
+18:06:29.770 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+18:08:50.320 INFO - simon.schimik@gmail.com hardware joined.
+18:09:50.995 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+18:11:54.251 INFO - simon.schimik@gmail.com hardware joined.
+18:13:36.057 INFO - simon.schimik@gmail.com hardware joined.
+18:18:43.862 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+18:22:03.080 INFO - simon.schimik@gmail.com hardware joined.
+18:22:34.443 INFO - simon.schimik@gmail.com hardware joined.
+18:31:52.255 INFO - simon.schimik@gmail.com hardware joined.
+18:33:29.957 INFO - simon.schimik@gmail.com hardware joined.
+18:36:41.972 INFO - simon.schimik@gmail.com hardware joined.
+18:37:36.232 INFO - simon.schimik@gmail.com hardware joined.
+18:38:35.143 INFO - simon.schimik@gmail.com hardware joined.
+18:38:43.520 INFO - simon.schimik@gmail.com hardware joined.
+18:39:29.297 INFO - simon.schimik@gmail.com hardware joined.
+18:40:10.838 INFO - simon.schimik@gmail.com hardware joined.
+18:40:42.622 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+18:41:11.470 INFO - Creating new dashboard.
+18:42:51.755 INFO - simon.schimik@gmail.com hardware joined.
+18:43:15.244 INFO - simon.schimik@gmail.com hardware joined.
+18:47:27.700 INFO - simon.schimik@gmail.com hardware joined.
+18:48:23.457 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+18:58:30.882 INFO - simon.schimik@gmail.com hardware joined.
+19:00:17.858 INFO - simon.schimik@gmail.com hardware joined.
+19:00:52.181 INFO - simon.schimik@gmail.com hardware joined.
+19:08:27.041 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+19:24:36.994 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+19:45:08.679 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+19:54:33.042 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+19:59:01.800 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+21:04:09.676 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+21:04:59.427 INFO - simon.schimik@gmail.com hardware joined.
+21:07:43.905 INFO - simon.schimik@gmail.com hardware joined.
+21:08:10.124 INFO - simon.schimik@gmail.com hardware joined.
+21:19:43.100 INFO - simon.schimik@gmail.com hardware joined.
+21:20:05.248 INFO - simon.schimik@gmail.com hardware joined.
+21:20:48.501 INFO - simon.schimik@gmail.com hardware joined.
+21:21:05.062 INFO - simon.schimik@gmail.com hardware joined.
+21:22:00.334 INFO - simon.schimik@gmail.com hardware joined.
+21:22:24.905 INFO - simon.schimik@gmail.com hardware joined.
+21:22:36.587 INFO - simon.schimik@gmail.com hardware joined.
+21:22:43.713 INFO - simon.schimik@gmail.com hardware joined.
+21:24:47.686 INFO - simon.schimik@gmail.com hardware joined.
+21:25:10.962 INFO - simon.schimik@gmail.com hardware joined.
+21:25:39.663 INFO - simon.schimik@gmail.com hardware joined.
+21:26:50.117 INFO - simon.schimik@gmail.com hardware joined.
+21:29:04.238 INFO - simon.schimik@gmail.com hardware joined.
+21:29:17.373 INFO - simon.schimik@gmail.com hardware joined.
+21:29:26.233 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+21:36:04.628 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+21:41:48.537 INFO - simon.schimik@gmail.com hardware joined.
+21:42:04.371 INFO - simon.schimik@gmail.com hardware joined.
+21:42:17.987 INFO - simon.schimik@gmail.com hardware joined.
+21:42:39.401 INFO - simon.schimik@gmail.com hardware joined.
+21:42:43.725 INFO - simon.schimik@gmail.com hardware joined.
+21:42:52.764 INFO - simon.schimik@gmail.com hardware joined.
+21:42:54.405 INFO - simon.schimik@gmail.com hardware joined.
+21:43:00.733 INFO - simon.schimik@gmail.com hardware joined.
+21:43:20.782 INFO - simon.schimik@gmail.com hardware joined.
+21:43:53.435 INFO - simon.schimik@gmail.com hardware joined.
+21:44:36.328 INFO - simon.schimik@gmail.com hardware joined.
+21:44:48.378 INFO - simon.schimik@gmail.com hardware joined.
+21:44:57.061 INFO - simon.schimik@gmail.com hardware joined.
+21:45:08.785 INFO - simon.schimik@gmail.com hardware joined.
+21:46:24.429 INFO - simon.schimik@gmail.com hardware joined.
+21:46:35.453 INFO - simon.schimik@gmail.com hardware joined.
+21:47:04.257 INFO - simon.schimik@gmail.com hardware joined.
+21:47:40.196 INFO - simon.schimik@gmail.com hardware joined.
+21:48:30.051 INFO - simon.schimik@gmail.com hardware joined.
+21:54:18.705 INFO - simon.schimik@gmail.com hardware joined.
+21:55:05.376 INFO - simon.schimik@gmail.com hardware joined.
+21:56:41.507 INFO - simon.schimik@gmail.com hardware joined.
+21:57:14.014 INFO - simon.schimik@gmail.com hardware joined.
+21:58:18.029 INFO - simon.schimik@gmail.com hardware joined.
+21:58:38.201 INFO - simon.schimik@gmail.com hardware joined.
+22:00:04.727 INFO - simon.schimik@gmail.com hardware joined.
+22:00:31.707 INFO - simon.schimik@gmail.com hardware joined.
+22:01:15.002 INFO - simon.schimik@gmail.com hardware joined.
+22:01:50.279 INFO - simon.schimik@gmail.com hardware joined.
+22:02:51.677 INFO - simon.schimik@gmail.com hardware joined.
+22:07:38.337 INFO - simon.schimik@gmail.com hardware joined.
+22:08:02.745 INFO - simon.schimik@gmail.com hardware joined.
+22:08:50.085 INFO - simon.schimik@gmail.com hardware joined.
+22:09:28.112 INFO - simon.schimik@gmail.com hardware joined.
+22:13:46.535 INFO - simon.schimik@gmail.com hardware joined.
+22:14:15.873 INFO - simon.schimik@gmail.com hardware joined.
+22:15:48.305 INFO - simon.schimik@gmail.com hardware joined.
+22:16:43.930 INFO - simon.schimik@gmail.com hardware joined.
+22:16:59.650 INFO - simon.schimik@gmail.com hardware joined.
+22:20:28.366 INFO - simon.schimik@gmail.com hardware joined.
+22:20:59.501 INFO - simon.schimik@gmail.com hardware joined.
+22:21:33.985 INFO - simon.schimik@gmail.com hardware joined.
+22:21:45.090 INFO - simon.schimik@gmail.com hardware joined.
+22:21:54.819 INFO - simon.schimik@gmail.com hardware joined.
+22:22:14.151 INFO - simon.schimik@gmail.com hardware joined.
+22:23:00.641 INFO - simon.schimik@gmail.com hardware joined.
+22:24:02.207 INFO - simon.schimik@gmail.com hardware joined.
+22:24:52.040 INFO - simon.schimik@gmail.com hardware joined.
+22:25:29.562 INFO - simon.schimik@gmail.com hardware joined.
+22:29:27.872 INFO - simon.schimik@gmail.com hardware joined.
+22:30:05.751 INFO - simon.schimik@gmail.com hardware joined.
+22:47:21.142 INFO - simon.schimik@gmail.com hardware joined.
+22:47:29.402 INFO - simon.schimik@gmail.com hardware joined.
+22:49:12.050 INFO - simon.schimik@gmail.com hardware joined.
+22:50:05.789 INFO - simon.schimik@gmail.com hardware joined.
+22:51:58.823 INFO - simon.schimik@gmail.com hardware joined.
+23:00:10.245 INFO - simon.schimik@gmail.com hardware joined.
+23:03:46.555 INFO - simon.schimik@gmail.com hardware joined.
+23:05:39.982 INFO - simon.schimik@gmail.com hardware joined.
+23:06:57.045 INFO - simon.schimik@gmail.com hardware joined.
+23:07:36.837 INFO - simon.schimik@gmail.com hardware joined.
+23:07:55.857 INFO - simon.schimik@gmail.com hardware joined.
+23:08:56.151 INFO - simon.schimik@gmail.com hardware joined.
+23:09:18.467 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+23:15:54.282 INFO - simon.schimik@gmail.com hardware joined.
+23:16:32.137 INFO - simon.schimik@gmail.com hardware joined.
+23:20:23.354 INFO - simon.schimik@gmail.com hardware joined.
+23:25:54.438 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+23:26:28.441 INFO - simon.schimik@gmail.com hardware joined.
+23:28:01.714 INFO - simon.schimik@gmail.com hardware joined.
+23:33:11.015 INFO - simon.schimik@gmail.com hardware joined.
+23:33:27.283 INFO - simon.schimik@gmail.com hardware joined.
+23:35:31.797 INFO - simon.schimik@gmail.com hardware joined.
+23:35:47.138 INFO - simon.schimik@gmail.com hardware joined.
+23:37:09.187 INFO - simon.schimik@gmail.com hardware joined.
+23:37:31.274 INFO - simon.schimik@gmail.com hardware joined.
+23:37:49.740 INFO - simon.schimik@gmail.com hardware joined.
+23:39:59.193 INFO - simon.schimik@gmail.com hardware joined.
+23:44:37.395 INFO - simon.schimik@gmail.com hardware joined.
+23:44:59.625 INFO - simon.schimik@gmail.com hardware joined.
+23:45:21.085 INFO - simon.schimik@gmail.com hardware joined.
+23:46:59.156 INFO - simon.schimik@gmail.com hardware joined.
+23:47:14.956 INFO - simon.schimik@gmail.com hardware joined.
+23:47:29.872 INFO - simon.schimik@gmail.com hardware joined.
+23:48:14.053 INFO - simon.schimik@gmail.com hardware joined.
+23:49:55.613 INFO - simon.schimik@gmail.com hardware joined.
+23:50:14.658 INFO - simon.schimik@gmail.com hardware joined.
+23:50:36.303 INFO - simon.schimik@gmail.com hardware joined.
+23:50:50.070 INFO - simon.schimik@gmail.com hardware joined.
+23:51:50.342 INFO - simon.schimik@gmail.com hardware joined.
+23:52:10.692 INFO - simon.schimik@gmail.com hardware joined.
+23:52:43.805 INFO - simon.schimik@gmail.com hardware joined.
+23:54:35.943 INFO - simon.schimik@gmail.com hardware joined.
+23:55:13.439 INFO - simon.schimik@gmail.com hardware joined.
+23:55:27.215 INFO - simon.schimik@gmail.com hardware joined.
+23:55:54.857 INFO - simon.schimik@gmail.com hardware joined.
+23:57:32.336 INFO - simon.schimik@gmail.com hardware joined.

@@ -4,10 +4,10 @@
 #include "config_global.h"
 
 #ifdef INSIDESENSOR
-    #include "config_insidesensor.h"
+#include "config_insidesensor.h"
 #endif
 #ifdef OUTSIDESENSOR
-    #include "config_outsidesensor.h"
+#include "config_outsidesensor.h"
 #endif
 
 #include "ConnectionHandler.h"
@@ -16,15 +16,16 @@ int numMQTTConnects = 0;
 int numWifiConnects = 0;
 unsigned long rollover_count = 0;
 int wifiConnectAttempts = 0;
-char uptime_dd_hh_mm_ss [12] = "";
+char uptime_dd_hh_mm_ss[12] = "";
 unsigned long last_uptime = 0;
-unsigned long uptime = 0; 
+unsigned long uptime = 0;
 String ipv4 = "";
 
 void handleConnects()
 {
     // Init Wifi-Connection
-    ledFlasher.attach(0.1, []{ ledFlash(LEDREDPIN); });
+    ledFlasher.attach(0.1, []
+                      { ledFlash(LEDREDPIN); });
     wifiConnectAttempts = 0;
 
     if (WiFi.status() != WL_CONNECTED)
@@ -42,6 +43,7 @@ void handleConnects()
     if (WiFi.status() == WL_CONNECTED)
     {
         WiFi.mode(WIFI_STA);
+        WiFi.setHostname(HOSTNAME);
         Serial.println("Wi-Fi CONNECTED");
         numWifiConnects++;
         ipv4 = WiFi.localIP().toString();
@@ -58,7 +60,7 @@ void handleConnects()
         ledFlasher.detach();
         digitalWrite(LEDREDPIN, HIGH); // Turn the Green LED on - we want it on to indicate that we're in 'stand-alone' mode
         wifiConnected = false;
-        timer.disable(check_connections_timer_id); // We can suspend the timers that do things with Wi-Fi & MQTT if we're in stand-alone mode (we'll still leave the hearbeat running to print serial debug)...
+        timer.disable(check_connections_timer_id);                                // We can suspend the timers that do things with Wi-Fi & MQTT if we're in stand-alone mode (we'll still leave the hearbeat running to print serial debug)...
         long_delay_timout_id = timer.setTimeout(RETRY_WAIT_TIME, handleConnects); // Create a one-shot timeout timer to try re-connecting again after a loger delay
     }
 }
@@ -69,23 +71,48 @@ void connectMQTT()
                       { ledFlash(LEDBLUEPIN); });
     Serial.println("Connecting to MQTT...  ");
     MQTTclient.setServer(MQTT_SERVER_IP, MQTT_SERVER_PORT);
-    if (MQTTclient.connect(mqtt_client_id.c_str(), MQTT_USERNAME, MQTT_PASSWORD, (BASE_MQTT_TOPIC "/Meta/Status"), 0, 1, "Dead"))
+    MQTTclient.setKeepAlive(120);
+    MQTTclient.setSocketTimeout(60);
+    if (MQTTclient.connect(mqtt_client_id.c_str(), MQTT_USERNAME, MQTT_PASSWORD, (BASE_MQTT_TOPIC "/Meta/Status"), 1, 1, "Dead", false))
     {
         Serial.println("MQTT Connected");
         ledFlasher.detach();
         digitalWrite(LEDBLUEPIN, LOW); // Turn the Green LED OFF - we want it Off in normal operation
         numMQTTConnects++;
 
+        MQTTclient.publish(BASE_MQTT_TOPIC "/Control/Rebooting", "false", true);
         MQTTclient.publish(BASE_MQTT_TOPIC "/Meta/MQTT_Client_ID", mqtt_client_id.c_str(), true);
         MQTTclient.publish(BASE_MQTT_TOPIC "/Meta/Status", "Alive", true);
         MQTTclient.publish(BASE_MQTT_TOPIC "/Meta/Compiled_Date", COMPILED_DATE, true);
         MQTTclient.publish(BASE_MQTT_TOPIC "/Meta/Compiled_Time", COMPILED_TIME, true);
-        MQTTclient.publish(BASE_MQTT_TOPIC "/Meta/MAC_Address", WiFi.macAddress().c_str(), true); 
+        MQTTclient.loop();
+        MQTTclient.publish(BASE_MQTT_TOPIC "/Meta/MAC_Address", WiFi.macAddress().c_str(), true);
         MQTTclient.publish(BASE_MQTT_TOPIC "/Meta/IP_Address", ipv4.c_str(), true);
         MQTTclient.publish(BASE_MQTT_TOPIC "/Meta/Hostname", WiFi.getHostname(), true);
-        MQTTclient.publish(BASE_MQTT_TOPIC "/Meta/WiFi_Connect_Count", String(numWifiConnects).c_str(), true); 
-        MQTTclient.publish(BASE_MQTT_TOPIC "/Meta/MQTT_Connect_Count", String(numMQTTConnects).c_str(), true); 
+        MQTTclient.publish(BASE_MQTT_TOPIC "/Meta/WiFi_Connect_Count", String(numWifiConnects).c_str(), true);
+        MQTTclient.loop();
+        MQTTclient.publish(BASE_MQTT_TOPIC "/Meta/MQTT_Connect_Count", String(numMQTTConnects).c_str(), true);
         MQTTclient.publish(BASE_MQTT_TOPIC "/Meta/Rollover_Count", String(rollover_count).c_str(), true);
+
+        #ifdef INSIDESENSOR
+                MQTTclient.subscribe("Outsidesensor/Data/Temperature");
+                MQTTclient.subscribe("Outsidesensor/Data/Humidity");
+                MQTTclient.subscribe("Outsidesensor/Data/Pressure");
+                MQTTclient.subscribe("Outsidesensor/Data/AbsoluteHumidity");
+                MQTTclient.loop();
+                MQTTclient.subscribe("Insidesensor/Control/TemperatureOffset");
+                MQTTclient.subscribe("Insidesensor/Control/HumidityOffset");
+                MQTTclient.subscribe("Insidesensor/Control/PressureOffset");
+                MQTTclient.subscribe("Insidesensor/Control/Rebooting");
+        #endif
+        #ifdef OUTSIDESENSOR
+                MQTTclient.subscribe("Outsidesensor/Control/TemperatureOffset");
+                MQTTclient.subscribe("Outsidesensor/Control/HumidityOffset");
+                MQTTclient.loop();
+                MQTTclient.subscribe("Outsidesensor/Control/PressureOffset");
+                MQTTclient.subscribe("Outsidesensor/Control/Rebooting");
+                MQTTclient.subscribe("Outsidesensor/Control/Fanstate");
+        #endif
     }
     else
     {
@@ -124,7 +151,7 @@ void formatUptime()
     int systemUpTimeHr = int((uptime / (1000 * 60 * 60)) % 24);
     int systemUpTimeDay = int((uptime / (1000 * 60 * 60 * 24)) % 365);
     sprintf(uptime_dd_hh_mm_ss, "%02d:%02d:%02d:%02d", systemUpTimeDay, systemUpTimeHr, systemUpTimeMin, systemUpTimeSec);
-} 
+}
 
 void heartbeat()
 {
@@ -141,13 +168,14 @@ void heartbeat()
 
     formatUptime();
 
-    if (MQTTclient.connected()) 
+    if (MQTTclient.connected())
     {
+        MQTTclient.publish(BASE_MQTT_TOPIC "/Meta/Status", "Alive", true);
         MQTTclient.publish(BASE_MQTT_TOPIC "/Heartbeat/RSSI", String(WiFi.RSSI()).c_str(), true);
-        MQTTclient.publish(BASE_MQTT_TOPIC "/Heartbeat/Used_RAM", String(1-((double)ESP.getFreeHeap()/(double)ESP.getHeapSize())).c_str(), true); 
-        MQTTclient.publish(BASE_MQTT_TOPIC "/Heartbeat/Used_Flash", String(1-((double)ESP.getFreeSketchSpace() / (double)ESP.getFlashChipSize())).c_str(), true); 
-        MQTTclient.publish(BASE_MQTT_TOPIC "/Heartbeat/Uptime", uptime_dd_hh_mm_ss, true);  
+        MQTTclient.publish(BASE_MQTT_TOPIC "/Heartbeat/Used_RAM", String(1 - ((double)ESP.getFreeHeap() / (double)ESP.getHeapSize())).c_str(), true);
+        MQTTclient.loop();
+        MQTTclient.publish(BASE_MQTT_TOPIC "/Heartbeat/Used_Flash", String(1 - ((double)ESP.getFreeSketchSpace() / (double)ESP.getFlashChipSize())).c_str(), true);
+        MQTTclient.publish(BASE_MQTT_TOPIC "/Heartbeat/Uptime", uptime_dd_hh_mm_ss, true);
     }
-    last_uptime = uptime; 
-} 
-
+    last_uptime = uptime;
+}

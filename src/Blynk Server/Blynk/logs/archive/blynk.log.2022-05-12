@@ -1,0 +1,48 @@
+00:23:53.699 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+00:28:11.391 INFO - simon.schimik@gmail.com hardware joined.
+00:28:27.052 INFO - simon.schimik@gmail.com hardware joined.
+00:28:43.722 INFO - simon.schimik@gmail.com hardware joined.
+00:30:49.120 INFO - simon.schimik@gmail.com hardware joined.
+00:39:17.269 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+01:05:31.161 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+01:06:22.809 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+01:16:57.210 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+13:31:31.266 INFO - Using data dir '.\server_data'
+13:31:31.704 INFO - Region : local. Host : 10.0.0.35.
+13:31:32.138 INFO - Initializing gmail smtp mail transport. Username : xbased@gmx.at. SMTP host : mail.gmx.net:587
+13:31:32.184 INFO - Reports : 0
+13:31:32.185 INFO - Didn't find custom user certificates.
+13:31:32.186 INFO - Didn't find Let's Encrypt certificates.
+13:31:32.186 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+13:31:32.187 WARN - ATTENTION. Server certificate paths (cert : 'D:\Coding\IoT\Wetterstation_4.0\src\Blynk Server\Blynk', key : 'D:\Coding\IoT\Wetterstation_4.0\src\Blynk Server\Blynk') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+13:31:32.956 INFO - HTTP API and WebSockets server listening at 8080 port.
+13:31:32.956 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+13:31:32.957 INFO - Mqtt hardware server listening at 8440 port.
+13:31:35.261 INFO - simon.schimik@gmail.com hardware joined.
+13:31:42.934 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+13:36:52.227 INFO - simon.schimik@gmail.com hardware joined.
+13:37:14.357 INFO - simon.schimik@gmail.com hardware joined.
+13:42:21.737 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+13:48:39.662 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+13:53:42.819 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+14:01:36.294 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+14:04:50.333 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+14:06:03.372 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+14:08:48.808 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+14:12:12.084 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+14:14:01.275 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+15:56:58.700 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+17:09:57.852 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+19:44:26.741 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+20:18:04.755 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+21:45:32.817 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+22:03:06.570 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+22:04:32.154 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+22:05:02.322 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+22:08:48.569 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+22:41:36.722 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+22:55:41.488 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+23:01:48.651 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+23:19:38.488 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+23:30:45.037 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+23:36:46.635 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.

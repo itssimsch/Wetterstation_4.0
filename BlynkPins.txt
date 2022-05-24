@@ -1,0 +1,45 @@
+V0 - Temperature Inside
+V1 - Humidity Inside
+V2 - Absolute Humidity Inside
+V3 - Pressure Inside
+V4 - Temperature Outside
+V5 - Humidity Outside
+V6 - Absolute Humidity Outside
+V7 - Pressure Outside
+V8 - Inside Status
+V9 - Outside Status
+V10 - Inside Compile Date
+V11 - Outside Compile Date
+V12 - Inside MAC
+V13 - Outside MAC
+V14 - Inside IP
+V15 - Outside IP
+V16 - Inside Hostname
+V17 - Outside Hostname
+V18 - Inside Wifi Connect Connect
+V19 - Outside Wifi Connect Count
+V20 - Inside Mqtt Connect Count
+V21 - Outside Mqtt Connect Count
+V22 - Inside Rollover Count
+V23 - Outside Rollover Count
+V24 - Inside Uptime
+V25 - Outside Uptime
+V26 - Inside Last seen alive
+V27 - Outside Last seen alive
+V28 - Inside Used_Ram
+V29 - Outside Used_Ram
+V30 - Inside Used_Flash
+V31 - Outside Used_Flash
+V32 - Inside RSSI
+V33 - Outside RSSI
+V34 - Inside Temperature Offset
+V35 - Outside Temperature Offset
+V36 - Inside Humidity Offset
+V37 - Outside Humidity Offset
+V38 - Inside Pressure Offset
+V39 - Outside Pressure Offset
+V40 - Inside rebooting
+V41 - Outside rebooting
+V42 - OWTINotifThreshold
+V43 - Outside Sensor Fan State
+V44 - Outside lux

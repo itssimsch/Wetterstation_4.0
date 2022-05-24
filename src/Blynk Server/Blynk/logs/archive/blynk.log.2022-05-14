@@ -1,0 +1,48 @@
+00:35:03.999 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+00:43:14.980 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+00:52:57.793 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+00:54:31.146 INFO - simon.schimik@gmail.com hardware joined.
+00:58:23.104 INFO - simon.schimik@gmail.com hardware joined.
+00:59:17.582 INFO - simon.schimik@gmail.com hardware joined.
+01:00:01.144 INFO - simon.schimik@gmail.com hardware joined.
+01:00:22.288 INFO - simon.schimik@gmail.com hardware joined.
+01:00:58.031 INFO - simon.schimik@gmail.com hardware joined.
+01:02:06.444 INFO - simon.schimik@gmail.com hardware joined.
+01:02:11.768 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+01:07:37.990 INFO - Using data dir '.\server_data'
+01:07:38.365 INFO - Region : local. Host : 10.0.0.35.
+01:07:38.721 INFO - Initializing gmail smtp mail transport. Username : xbased@gmx.at. SMTP host : mail.gmx.net:587
+01:07:38.752 INFO - Reports : 0
+01:07:38.752 INFO - Didn't find custom user certificates.
+01:07:38.753 INFO - Didn't find Let's Encrypt certificates.
+01:07:38.753 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+01:07:38.754 WARN - ATTENTION. Server certificate paths (cert : 'D:\Coding\IoT\Wetterstation_4.0\src\Blynk Server\Blynk', key : 'D:\Coding\IoT\Wetterstation_4.0\src\Blynk Server\Blynk') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+01:07:39.516 INFO - HTTP API and WebSockets server listening at 8080 port.
+01:07:39.516 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+01:07:39.517 INFO - Mqtt hardware server listening at 8440 port.
+01:07:40.042 INFO - simon.schimik@gmail.com hardware joined.
+01:07:40.933 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+01:08:00.921 INFO - simon.schimik@gmail.com hardware joined.
+01:09:37.558 INFO - simon.schimik@gmail.com hardware joined.
+01:10:40.766 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+01:11:09.377 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+01:59:19.334 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+02:09:16.922 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+08:44:19.934 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+10:24:02.512 ERROR- Error sending push. Reason NotRegistered
+10:24:02.512 ERROR- Removing invalid token. UID c--8WPhZQde0PskwkdSIeb
+15:36:53.582 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+16:18:39.648 INFO - simon.schimik@gmail.com hardware joined.
+16:22:16.838 INFO - simon.schimik@gmail.com hardware joined.
+16:22:55.472 INFO - simon.schimik@gmail.com hardware joined.
+16:25:09.667 INFO - simon.schimik@gmail.com hardware joined.
+16:25:10.924 INFO - simon.schimik@gmail.com hardware joined.
+19:04:45.906 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+19:05:03.612 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+21:14:14.683 INFO - simon.schimik@gmail.com hardware joined.
+21:37:49.644 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+23:33:04.181 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+23:36:45.401 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+23:38:51.755 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+23:40:57.529 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.
+23:47:43.119 INFO - simon.schimik@gmail.com Blynk-app (android-22734) joined.

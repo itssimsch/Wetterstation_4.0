@@ -5,6 +5,7 @@
 
 #define CLIENT_ID "Insidesensor"
 #define BASE_MQTT_TOPIC "Insidesensor"
+#define HOSTNAME "ESP32-Insidesensor"
 
 static const String mqtt_client_id = String(CLIENT_ID) + "_" + String(ESP.getChipModel());
 extern String ipv4;
