@@ -205,6 +205,5 @@ void loop()
   {
     MQTTclient.loop();
     AsyncElegantOTA.loop();
-    Serial.println(MQTTclient.state());
   }
 }

@@ -21,6 +21,38 @@ unsigned long last_uptime = 0;
 unsigned long uptime = 0;
 String ipv4 = "";
 
+String getServerIp(){
+    String finalServerIp;
+    int dnsResolveTries = 0;
+
+    // Try to resolve hostname if defined
+    #ifdef MQTT_SERVER_HOSTNAME
+        while (mdns_init() != ESP_OK)
+        {
+            delay(1000);
+            Serial.println("Starting MDNS...");
+        }
+        do
+        {
+            Serial.println("Resolving host...");
+            delay(250);
+            finalServerIp = MDNS.queryHost(MQTT_SERVER_HOSTNAME).toString();
+            dnsResolveTries++;
+        } while (finalServerIp == "0.0.0.0" && dnsResolveTries < MAX_DNS_RESOLVE_TRIES);
+        if(finalServerIp != "0.0.0.0") return finalServerIp;
+    #endif
+
+    // Use predefined IP for connection if only ip is defined or resolving hostname failed
+    #ifdef MQTT_SERVER_IP
+        finalServerIp = MQTT_SERVER_IP;
+        return finalServerIp;
+    #endif
+
+    // If hostname resolve failed and no IP was defined restart ESP
+    ESP.restart();
+    
+}
+
 void handleConnects()
 {
     // Init Wifi-Connection
@@ -42,6 +74,7 @@ void handleConnects()
 
     if (WiFi.status() == WL_CONNECTED)
     {
+
         WiFi.mode(WIFI_STA);
         WiFi.setHostname(HOSTNAME);
         Serial.println("Wi-Fi CONNECTED");
@@ -70,7 +103,8 @@ void connectMQTT()
     ledFlasher.attach(0.1, []
                       { ledFlash(LEDBLUEPIN); });
     Serial.println("Connecting to MQTT...  ");
-    MQTTclient.setServer(MQTT_SERVER_IP, MQTT_SERVER_PORT);
+    String serverIP = getServerIp();
+    MQTTclient.setServer(serverIP.c_str(), MQTT_SERVER_PORT);
     MQTTclient.setKeepAlive(120);
     MQTTclient.setSocketTimeout(60);
     if (MQTTclient.connect(mqtt_client_id.c_str(), MQTT_USERNAME, MQTT_PASSWORD, (BASE_MQTT_TOPIC "/Meta/Status"), 1, 1, "Dead", false))
@@ -94,25 +128,25 @@ void connectMQTT()
         MQTTclient.publish(BASE_MQTT_TOPIC "/Meta/MQTT_Connect_Count", String(numMQTTConnects).c_str(), true);
         MQTTclient.publish(BASE_MQTT_TOPIC "/Meta/Rollover_Count", String(rollover_count).c_str(), true);
 
-        #ifdef INSIDESENSOR
-                MQTTclient.subscribe("Outsidesensor/Data/Temperature");
-                MQTTclient.subscribe("Outsidesensor/Data/Humidity");
-                MQTTclient.subscribe("Outsidesensor/Data/Pressure");
-                MQTTclient.subscribe("Outsidesensor/Data/AbsoluteHumidity");
-                MQTTclient.loop();
-                MQTTclient.subscribe("Insidesensor/Control/TemperatureOffset");
-                MQTTclient.subscribe("Insidesensor/Control/HumidityOffset");
-                MQTTclient.subscribe("Insidesensor/Control/PressureOffset");
-                MQTTclient.subscribe("Insidesensor/Control/Rebooting");
-        #endif
-        #ifdef OUTSIDESENSOR
-                MQTTclient.subscribe("Outsidesensor/Control/TemperatureOffset");
-                MQTTclient.subscribe("Outsidesensor/Control/HumidityOffset");
-                MQTTclient.loop();
-                MQTTclient.subscribe("Outsidesensor/Control/PressureOffset");
-                MQTTclient.subscribe("Outsidesensor/Control/Rebooting");
-                MQTTclient.subscribe("Outsidesensor/Control/Fanstate");
-        #endif
+#ifdef INSIDESENSOR
+        MQTTclient.subscribe("Outsidesensor/Data/Temperature");
+        MQTTclient.subscribe("Outsidesensor/Data/Humidity");
+        MQTTclient.subscribe("Outsidesensor/Data/Pressure");
+        MQTTclient.subscribe("Outsidesensor/Data/AbsoluteHumidity");
+        MQTTclient.loop();
+        MQTTclient.subscribe("Insidesensor/Control/TemperatureOffset");
+        MQTTclient.subscribe("Insidesensor/Control/HumidityOffset");
+        MQTTclient.subscribe("Insidesensor/Control/PressureOffset");
+        MQTTclient.subscribe("Insidesensor/Control/Rebooting");
+#endif
+#ifdef OUTSIDESENSOR
+        MQTTclient.subscribe("Outsidesensor/Control/TemperatureOffset");
+        MQTTclient.subscribe("Outsidesensor/Control/HumidityOffset");
+        MQTTclient.loop();
+        MQTTclient.subscribe("Outsidesensor/Control/PressureOffset");
+        MQTTclient.subscribe("Outsidesensor/Control/Rebooting");
+        MQTTclient.subscribe("Outsidesensor/Control/Fanstate");
+#endif
     }
     else
     {

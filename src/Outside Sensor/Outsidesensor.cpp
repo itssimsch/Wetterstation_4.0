@@ -124,6 +124,9 @@ void setup()
 void loop()
 {
   timer.run();
-  MQTTclient.loop();
-  AsyncElegantOTA.loop();
+  if (wifiConnected)
+  {
+    MQTTclient.loop();
+    AsyncElegantOTA.loop();
+  }
 }
